@@ -11,7 +11,7 @@ const App = () => {
     if (name === "+") {
       setCount((preValue) => preValue + 1);
     } else {
-      setCount((preValue) => preValue + 1);
+      setCount((preValue) => preValue - 1);
     }
   };
   return (
